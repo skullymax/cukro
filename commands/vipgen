@@ -19,7 +19,7 @@ function doMagic8BallVoodooo() {
 }
 
 exports.run = (client, message, args) => {
-  if(!message.member.roles.some(r=>["vip"].includes(r.name)) )
+  if(!message.member.roles.some(r=>["vip", "VIP"].includes(r.name)) )
     return message.reply("Sorry, you don't have permissions to use this! **MAKE SURE YOU HAVE ROLE 'vip'**");
   message.channel.send("**VIP Generating...**");
     message.author.send(doMagic8BallVoodooo());
