@@ -3,7 +3,7 @@ const {caseNumber} = require('../util/caseNumber.js');
 const settings = require('../settings.json');
 exports.run = async (client, message, args) => {
   const user = message.mentions.users.first();
-  const modlog = client.channels.find('mod-log');
+  const modlog = client.channels.find('name', 'mod-log');
   const caseNum = await caseNumber(client, modlog);
   if (!modlog) return message.reply('I cannot find a mod-log channel');
   if (message.mentions.users.size < 1) return message.reply('You must mention someone to warn them.').catch(console.error);
