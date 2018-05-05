@@ -1,4 +1,4 @@
-function doMagic8BallVoodoo() {
+function vgen() {
     var rand = ['davaguco:internet73',
     'adamboerema@gmail.com:acb7311988',
     'raziel.secur@gmail.com:z1x2q3c4',
@@ -20,8 +20,8 @@ function doMagic8BallVoodoo() {
 
 exports.run = (client, message, args) => {
   if(!message.member.roles.some(r=>["vip"].includes(r.name)) )
-  message.channel.send("**VIP Generating...**");
-    message.author.send(doMagic8BallVoodoo());
+  let message.channel.send("**VIP Generating...**");
+    message.author.send(vgen());
     message.author.send("Join to official discord https://discord.gg/VAwQKQG");
 
 }
