@@ -4,6 +4,7 @@ exports.run = (client, message, params) => {
   .setColor(0x00AE86)
   .setTimestamp()
   .setDescription(`Check commands here: http://eyzalts.us/alts/bot/`)
+}
 
 exports.conf = {
   enabled: true,
