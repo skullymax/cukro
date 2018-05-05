@@ -31,13 +31,13 @@ exports.run = (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['getvalt', 'vgen', 'valt', 'vgenerate'],
+  aliases: ['vipgen'],
   permLevel: 0
 };
 
 exports.help = {
-  name: 'Classic Alts',
-  description: 'Generate free minecraft accounts.',
-  usage: 'vgenerate'
+  name: 'Vip Alts',
+  description: 'Generate vip minecraft accounts.',
+  usage: 'vipgen'
 };
 
