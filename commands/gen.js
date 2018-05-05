@@ -3,7 +3,7 @@ function doMagic8BallVoodoo() {
     'adamboerema@gmail.com:acb7311988',
     'raziel.secur@gmail.com:z1x2q3c4',
     'amikaysbokays@aol.com:meow2000',
-    'austincruz8@gmail.com:jarjarac8'];
+    'dylantucker2005@yahoo.com:Tyaldyto1'];
 
     return rand[Math.floor(Math.random()*rand.length)];
 }
