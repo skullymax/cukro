@@ -27,17 +27,3 @@ exports.run = (client, message, args) => {
 
 }
 
-
-exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  aliases: ['getvalt', 'vgen', 'valt', 'vgenerate'],
-  permLevel: 0
-};
-
-exports.help = {
-  name: 'Classic Alts',
-  description: 'Generate free minecraft accounts.',
-  usage: 'vgenerate'
-};
-
