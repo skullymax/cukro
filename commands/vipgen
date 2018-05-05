@@ -31,7 +31,7 @@ exports.run = (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['vipgen'],
+  aliases: ['vgen'],
   permLevel: 0
 };
 
