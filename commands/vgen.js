@@ -20,7 +20,7 @@ function doMagic8BallVoodooo() {
 
 exports.run = (client, message, args) => {
   if(!message.member.roles.some(r=>["vip"].includes(r.name)) )
-  let message.channel.send("**VIP Generating...**");
+   message.channel.send("**VIP Generating...**");
     message.author.send(doMagic8BallVoodoo());
     message.author.send("Join to official discord https://discord.gg/VAwQKQG");
 
