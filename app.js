@@ -8,12 +8,8 @@ require('./util/eventLoader')(client);
 
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
-};
-
-client.on("guildDelete", guild => {
-  console.log(`I have been removed from: ${guild.name} (id: ${guild.id})`);
   client.user.setActivity(`Serving ${client.guilds.size} servers`);
-});
+};
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
