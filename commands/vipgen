@@ -1,19 +1,19 @@
 function doMagic8BallVoodooo() {
-    var rand = ['davaguco:internet73',
-    'adamboerema@gmail.com:acb7311988',
-    'raziel.secur@gmail.com:z1x2q3c4',
-    'amikaysbokays@aol.com:meow2000',
-    'satch3l@gmail.com:sevamix',
-    'brandonp.pwns@yahoo.com:phung11',
-    'colovos.kevin@gmail.com:as506345',
-    'jackedwardshey@hotmail.co.uk:horseey12',
-    'halliemrizek@gmail.com:kaulitz2',
-    'charlielewisnz@gmail.com:11churchill',
-    'juldeleon19@gmail.com:angel555',
-    'loco.qwer@gmail.com:Kalejdoskop1',
-    'mnieckula@yahoo.com:graalfox87',
-    'krishmuttu9@gmail.com:Krishnam9',
-    'austincruz8@gmail.com:jarjarac8'];
+    var rand = ['gianstasi@yahoo.com:clause5',
+    'merio@hotmail.se:123kanelolle123',
+    'emma.shaner@gmail.com:erma123',
+    'ktemple2000@gmail.com:chester123',
+    'weaverjake271@gmail.com:fudge333',
+    'dominick_bakker@hotmail.com:klaas123',
+    'w.j.a.nelson@btinternet.com:itgdotfftiow',
+    'XxLightningZapGamingxX@gmail.com:gamingplay123',
+    'cgryzen2002@yahoo.com:orange1',
+    'franze.yang@yahoo.com:Yy950610',
+    'false404@gmail.com:r2d2c3p0',
+    'tveit.erik@gmail.com:spagetti89',
+    'mbubier@gmail.com:wing0ms',
+    'william.fordy@hotmail.co.uk:millie.dog1',
+    'mhgaillo:arsenal123'];
 
     return rand[Math.floor(Math.random()*rand.length)];
 }
