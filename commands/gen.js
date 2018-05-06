@@ -2,7 +2,7 @@ function doMagic8BallVoodoo() {
     var rand = ['davaguco:internet73',
     'adamboerema@gmail.com:acb7311988',
     'raziel.secur@gmail.com:z1x2q3c4',
-    'amikaysbokays@aol.com:meow2000',
+    'gabebuscus6@gmail.com:huangdao1',
     'mephisto162:c3pha89kl'];
 
     return rand[Math.floor(Math.random()*rand.length)];
