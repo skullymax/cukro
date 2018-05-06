@@ -6,18 +6,6 @@ const fs = require('fs');
 const moment = require('moment');
 require('./util/eventLoader')(client);
 
-var workerFarm = require('worker-farm')
-  , workers    = workerFarm(require.resolve('./child'))
-  , ret        = 0
- 
-for (var i = 0; i < 10; i++) {
-  workers('#' + i + ' FOO', function (err, outp) {
-    console.log(outp)
-    if (++ret == 10)
-      workerFarm.end(workers)
-  })
-}
-
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
