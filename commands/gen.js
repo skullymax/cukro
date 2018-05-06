@@ -15,14 +15,6 @@ exports.run = (client, message, args) => {
 
 }
 
-
-exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  aliases: ['getalt', 'generate', 'alt'],
-  permLevel: 0
-};
-
 exports.help = {
   name: 'Classic Alts',
   description: 'Generate free minecraft accounts.',
